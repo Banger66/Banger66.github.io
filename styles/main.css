@@ -1,8 +1,63 @@
 .header {
   text-transform: uppercase;
+  background-color: black;
+  color: #f2f2f2;
 }
 
 body {
   text-align: center;
-  background: url(/images/blue-background.jpg);
+  background-color: darkgray;
 }
+
+.content {
+  display: flex;
+}
+
+.topnav {
+  background-color: firebrick;
+  overflow: auto;
+  border: solid black 3px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: darkgrey;
+  color: black;
+}
+
+.sidebar {
+  height: 75%;
+  width: 200px;
+  position: fixed;
+  top: 97;
+  left: 5;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: firebrick;
+  border: solid black 3px;
+  border-top: 0px;
+  }
+  
+  .sidebar div {
+  color: #f2f2f2;
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+  border: 1px solid black;
+  margin: 5px;
+  }
+
+  .article {
+    position: fixed;
+    left: 20;
+    margin-left: 210px;
+  }
