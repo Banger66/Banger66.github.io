@@ -1,7 +1,7 @@
 .header {
   text-transform: uppercase;
   background-color: black;
-  color: #f2f2f2;
+  color: #ddd;
   padding: 20px 0px 20px 0px;
 }
 
@@ -11,34 +11,28 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.content {
-  display: flex;
-}
-
 .topnav {
   background-color: firebrick;
-  overflow: auto;
   border: solid black 3px;
+  padding: 10px 10px;
 }
 
 .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  color: #ddd;
+  padding: 10px 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .topnav a:hover {
-  background-color: darkgrey;
+  background-color: #ddd;
   color: black;
 }
 
 .sidebar {
   height: 80%;
-  width: 200px;
+  width: 300px;
   position: fixed;
   top: 97;
   left: 5;
@@ -58,31 +52,31 @@ body {
   margin: 5px;
   }
 
-  .article {
+  .content {
     position: fixed;
     left: 20;
-    margin-left: 215px;
-    margin-top: -10px;
+    display: block;
+    flex-wrap: wrap;
   }
 
   .voodoo {
     max-width: 300px;
-    display: block;
-    position: fixed;
   }
 
-  .wd-text {
-    display: block;
-    position: fixed;
-    margin-left: 305px;
-    margin-top: -5px;
-    margin-right: 5px;
+
+  .article {
+    left: 20;
+    margin-left: 315px;
+    margin-top: -10px;
     text-align: left;
   }
 
-  .welcome {
-    left: 20;
-    margin-left: 215px;
-    margin-top: -10px;
-    text-align: center;
+  .art-main {
+    float: left;
+    margin-right: 5px;
+  }
+
+  .text-main {
+    margin-left: 5px;
+    width: 70%;
   }
