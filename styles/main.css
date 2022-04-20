@@ -5,10 +5,25 @@
   padding: 20px 0px 20px 0px;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   text-align: center;
   background-color: darkgray;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+p {
+  line-height: 1.3;
 }
 
 .topnav {
@@ -31,16 +46,15 @@ body {
 }
 
 .sidebar {
-  height: 80%;
+  height: 100%;
   width: 300px;
-  position: fixed;
-  top: 97;
+  position: absolute;
   left: 5;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: firebrick;
   border: solid black 3px;
-  border-top: 0px;
+  margin-top: -13px;
   }
   
   .sidebar div {
@@ -53,10 +67,8 @@ body {
   }
 
   .content {
-    position: fixed;
     left: 20;
     display: block;
-    flex-wrap: wrap;
   }
 
   #voodoo {
@@ -67,8 +79,9 @@ body {
   .article {
     left: 20;
     margin-left: 315px;
-    margin-top: -10px;
+    margin-top: 10px;
     text-align: left;
+    padding-top: 5px;
   }
 
   .art-main {
@@ -95,3 +108,21 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
   }
+
+  ul {
+    line-height: 1.3;
+  }
+
+  #css {
+    border: solid 1px black;
+    width: 200px;
+    background-color: blanchedalmond;
+  }
+
+  #div-example {
+    width: 200px;
+    padding: 15px;
+    border: black 5px solid;
+    margin: 20px; 
+    text-align: center;
+    }
