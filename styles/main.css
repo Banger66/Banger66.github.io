@@ -93,6 +93,10 @@ p {
     padding-right: 10px;
   }
 
+  .article h2 {
+    text-align: center;
+  }
+
   .art-main {
     float: left;
     margin-right: 5px;
