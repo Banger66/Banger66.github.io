@@ -186,3 +186,7 @@ p {
     .dropdown:hover .dropdown-content {
       display: block;
     }
+
+    .clickbtn {
+      padding: 0px;
+    }
