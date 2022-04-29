@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Harrys Dev Blog</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" type="image/x-icon" href="images/Maledict_icon.ico">
+</head>
+<body>
+  <div>
+    <h1 class="header">Harrys Dev Journey</h1>
+  </div>
+  <div class="topnav"> 
+     <a href="/sprint4.html">Sprint 4</a>
+     <div class="dropdown">
+      <button href="/sprint3.html" class="dropbtn"> <a href="/sprint3.html" class="clickbtn"> Sprint 3 
+        <i class="fa fa-caret-down"></i>
+      </a>
+      </button>
+      <div class="dropdown-content">
+        <a href="/emotional-intelligence.html">Emotional Intelligence</a>
+        <a href="/javascript-dom.html">JavaScript-DOM</a>
+      </div>
+    </div>
+     <div class="dropdown">
+      <button class="dropbtn"> <a href="/sprint2.html" class="clickbtn">Sprint 2 
+        <i class="fa fa-caret-down"></i>
+      </a>
+      </button>
+      <div class="dropdown-content">
+        <a href="/html-css.html">CSS - Margin, Border and Padding</a>
+        <a href="/identity-values.html">Identity Values</a>
+        <a href="/learning-plan.html">Learning Plan</a>
+      </div>
+    </div>
+     <a href="/index.html">Home</a>
+  </div>
+  <div class="content">
+    <div class="article">
+      <h2>JavaScript-DOM</h2>
+      <br>
+      <h3>Differences Between HTML and CSS</h3>
+      <p>I like to thing of HTML as like the foundations of your house. Where the walls and windows are, where the rooms are connected and how they get connected. CSS is the decorating aspect of it. What colours the walls are, the grain of wood on the doors, the texture of the carpet. You can have a house without any decoration but it would be ugly and uncomfortable. You also cannot decorate anything that doesn't exist, so HTML is required for CSS. HTML is like a Silverback Gorilla. He can get the job done but nothing very artistic about him, he'll slam the walls up and get a roof over your head. But a flamingo comes in afterwards and pretties everything up and puts his flair on it all, that's CSS.</p>
+      <h3>Explanation of control flow and loops</h3>
+      <p>JavaScript uses methods to make sure everything works uniformly. Control Flow refers to the computer running code from top to bottom, and loops refer to doing a patch of code over and over again until a certain condition is met. Think of it like making a bowl of soup. You follow the recipe from top to bottom, but sometimes you are required to perform the same task over and over again, like stirring the pot X amount of times until all the ingredients are mixed together properly and the soup is consistant.</p>
+      <h3>What is the DOM?</h3>
+      <p>DOM stands for Document Object Model. In the world of web, all HTML webpages are referred to as documents. The Document Object Model represents each of these web pages in a tree-like structure to make it easier to access and manage the elements. The DOM's contents are literally everything inside a webpage, and sometimes we might want to interact with that using JavaScript. For example, when you go to log in or sign up to a website, you enter some credentials and send them using a button. This would be a good example of interacting with the DOM.</p>
+      <h3>The Difference between accessing data from arrays and objects</h3>
+      <p>Objects are mutable data structure in javascript which is used to represent a ‘Thing’. This could be anything like cars, plants, person, community etc. Objects in JavaScript are displayed like this:</p>
+      <pre id="object">
+        <code class="CSS hljs">
+   <span>let harry =</span> {
+   <span>   name </span>: <span>'Harrison Mordecai'</span>;
+   <span>   age </span>: <span>'26'</span>;
+   <span>   gender </span>: <span>'male'</span> ;
+   <span>   favHobby </span>: <span>'Dota 2'</span>; 
+   }</code>
+     </pre>
+     <p>It stores the data in what we call key value pairs, for example the key <code>name</code> is paired with it's value, <code>'Harrison Mordecai'</code>. We can either use a dot operator followed by key name <code> obj.name</code> or a square bracket along with key in string format <code> obj['name']</code> to access the value.</p>
+     <p>Now, onto arrays. The major difference is that they store the data in an ordered collection in which the data can be accessed using a numerical index. Here's an example of an array:</p>
+     <pre id="span">
+      <code>
+        let agesInHouseHold = [26, 23, 2, 0]
+      </code>
+     </pre>
+     <p>Spans were the first thing to make me realize why programmers count from 0. you can see 4 pieces of data in the array, so you would think, in order they would be listed as 1-2-3-4-, right? Nuh uh. Computers are so smart, but holy crap, so dumb too. They count from 0, so referring back to our array, they're listed as 0-1-2-3. It's already caught me out a few times and I'm sure it's gonna get me a lot more in the future</p>
+     <h3>Functions</h3>
+     <p>Functions are the bread and butter of JavaScript. It's like a procedure - a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output. Here's a super simple example:</p>
+     <pre id="span">
+      <code>
+        function myFunction(p1, p2) {
+          return p1 * p2;   
+        }
+      </code>
+     </pre>
+     <p>In this function, called 'myFunction', it's taking two variables and multiplying them together. The beauty of using functions is that we can reuse the same code over as many times as we want. So no matter what happens to the variables p1 and p2, we can call this function again to multiply them, no matter what their value is.</p>
+    </div>
+  </div>
+</body>
+</html>
