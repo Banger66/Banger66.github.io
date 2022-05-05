@@ -209,3 +209,11 @@ p {
     .clickbtn {
       padding: 0px;
     }
+
+    .list {
+      text-align: left;
+    }
+
+    .psList {
+      padding-top: 5px;
+    }
